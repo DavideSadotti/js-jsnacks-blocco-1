@@ -4,7 +4,7 @@ var numeroDue;
 numeroUno = prompt("Inserisci un numero da 1 a 100");
 numeroDue = prompt("Inserisci un altro numero da 1 a 100");
 
-if(numeroUno == isNaN || numeroDue == isNaN){
+if(isNaN(numeroUno) || isNaN(numeroDue)){
   alert("Inserisci un numero a cifre e non con le lettere, capra!");
   numeroUno = prompt("Inserisci un numero da 1 a 100");
   numeroDue = prompt("Inserisci un altro numero da 1 a 100");
