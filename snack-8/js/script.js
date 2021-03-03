@@ -3,10 +3,8 @@ var cifra;
 var somma = 0;
 
 do{
-  do{
     numero = prompt("Inserisci un numero a 4 cifre!");
-  }while(isNaN(numero))
-}while(numero.length > 4 || numero.length < 4);
+}while(numero.length > 4 || numero.length < 4 || isNaN(numero));
 // if(numero.length > 4 || numero.length < 4){
 //   numero = prompt("RIPROVACI! Inserisci un numero a 4 cifre!");
 // }
